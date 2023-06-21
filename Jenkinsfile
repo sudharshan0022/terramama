@@ -11,7 +11,7 @@ pipeline {
     stage('git') {
         steps {
             sh 'git init'
-            sh "git pull https://github.com/vrk2299/terr.git"
+            sh "git pull https://github.com/sudharshan0022/terramama.git"
         }
     }
     stage('Terraform Init') {
